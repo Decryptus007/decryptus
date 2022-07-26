@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Decryptus</title>
+  </head>
+  <body class="relative text-slate-100 bg-slate-900">
+    <nav
+      class="z-10 backdrop-blur-sm backdrop-brightness-100 bg-slate-900/70 container fixed top-0 left-0 right-0 flex items-center justify-between mx-auto p-2 md:p-4"
+    >
+      <a
+        href="#"
+        class="hover:blur-sm text-slate-200 bg-slate-800 rounded-full p-2 text-bold md:text-2xl md:p-3 hover:text-slate-300"
+        >DECRYPTUS<sup>&copy;</sup></a
+      >
+      <div
+        id="sideBar"
+        class="sideClose p-4 fixed top-14 h-60 right-0 w-4/5 bg-slate-800 flex flex-col items-center justify-around md:flex-row md:w-1/2 md:relative md:top-0 md:bg-transparent md:p-0 md:h-auto md:space-x-4"
+      >
+        <a
+          href="#"
+          class="border-2 border-emarald bg-slate-700 w-full text-center text-slate-200 text-bold text-1xl hover:text-slate-600 rounded-md p-2 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-400 md:bg-transparent"
+          >Home</a
+        >
+        <a
+          href="#"
+          class="bg-slate-700 w-full text-center text-slate-200 text-bold text-1xl hover:text-slate-600 rounded-md p-2 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-400 md:bg-transparent"
+          >Projects</a
+        >
+        <a
+          href="#"
+          class="bg-slate-700 w-full text-center text-slate-200 text-bold text-1xl hover:text-slate-600 rounded-md p-2 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-400 md:bg-transparent"
+          >About</a
+        >
+        <a
+          href="#"
+          class="bg-slate-700 w-full text-center text-slate-200 text-bold text-1xl hover:text-slate-600 rounded-md p-2 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-400 md:bg-transparent"
+          >Contact</a
+        >
+      </div>
+
+      <!-- Mobile Nav -->
+      <button class="text-2xl px-2 md:hidden">
+        <span id="ctrlSide" class="i fa fa-bars"></span>
+      </button>
+    </nav>
+
+    <section
+      id="hero"
+      class="relative flex flex-row-reverse items-center justify-between px-2 py-10 h-screen container mx-auto"
+    >
+      <!-- SVG -->
+      <div class="custom-shape-divider-bottom-1658844097">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M649.97 0L550.03 0 599.91 54.12 649.97 0z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <!-- END OF SVG -->
+
+      <div class="hidden md:block w-5/12">
+        <img
+          class="block border-4 bg-slate-900/50 p-6 border-slate-900 object-cover rounded-full"
+          src="./assets/decryptus.png"
+          alt=""
+        />
+      </div>
+      <div class="w-full md:w-7/12">
+        <h1 class="text-6xl text-slate-300 md:text-7xl">
+          Hi! I'm Dominic.<br />A Front-End Web Developer.
+        </h1>
+      </div>
+    </section>
+
+    <section
+      id="skills"
+      class="relative pt-32 mx-auto container md:pt-40 pb-20 px-2 bg-slate-100 text-slate-900"
+    >
+      <!-- SVG DESIGN -->
+      <div class="custom-shape-divider-bottom-1658851161">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <!-- END OF SVG DESIGN -->
+
+      <h2 class="text-5xl text-bold text-center md:text-7xl mb-10">
+        <span class="p-2 fa fa-laptop-code"></span>Skills
+      </h2>
+      <div
+        class="mx-auto w-full p-2 flex flex-wrap items-center justify-around space-x-4 space-y-3"
+      >
+        <img
+          title="HTML"
+          class="w-20 md:w-32 lg:w-44"
+          src="./assets/html.png"
+          alt="HTML"
+        />
+        <img
+          title="CSS"
+          class="w-20 md:w-32 lg:w-44"
+          src="./assets/css.png"
+          alt="CSS"
+        />
+        <img
+          title="Tailwind CSS"
+          class="w-20 md:w-32 lg:w-44"
+          src="./assets/tailwindcss.png"
+          alt="Tailwind CSS"
+        />
+        <img
+          title="JavaScript"
+          class="w-20 md:w-32 lg:w-44"
+          src="./assets/js.png"
+          alt="JavaScript"
+        />
+        <img
+          title="ReactJs"
+          class="w-20 md:w-32 lg:w-44"
+          src="./assets/react.png"
+          alt="ReactJs"
+        />
+        <img
+          title="NPM"
+          class="w-20 md:w-32 lg:w-44"
+          src="./assets/npm.png"
+          alt="NPM"
+        />
+        <img
+          title="Webpack"
+          class="w-20 md:w-32 lg:w-44"
+          src="./assets/webpack.png"
+          alt="Webpack"
+        />
+      </div>
+    </section>
+
+    <section
+      id="experience"
+      class="relative container mx-auto pt-32 px-2 pb-20 bg-black text-slate-100 md:pt-40"
+    >
+      <!-- SVG DESIGN -->
+      <div class="custom-shape-divider-bottom-1658855114">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <!--END OF SVG DESIGN -->
+      <h2 class="text-5xl text-bold text-center md:text-7xl mb-36">
+        <span class="fa fa-globe"></span>
+        Experience
+      </h2>
+      <div class="flex items-center justify-between p-2 mb-20">
+        <div
+          id="exp1"
+          class="w-80 h-60 rounded-lg flex flex-col items-center justify-around p-2 rounded bg-slate-900 md:w-3/5 md:h-96 mx-auto shadow-sm shadow-slate-600"
+        >
+          <img
+            class="-mt-12 md:-mt-20 w-1/2 object-cover"
+            src="./assets/fichublogo.jpg"
+            alt=""
+          />
+          <p class="text-sm font-light">April 2021 - Present</p>
+          <h2 class="text-2xl text-center">Lead Front-End Developer</h2>
+          <p class="text-center text-lg font-light">
+            Volunteered for the position of lead front-end engineer at Fichub.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="education"
+      class="container mx-auto pt-32 px-2 pb-20 bg-slate-100 text-slate-900"
+    >
+      <h2 class="text-5xl text-bold text-center md:text-7xl mb-36">
+        <span class="fa fa-graduation-cap"></span>
+        Education
+      </h2>
+    </section>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

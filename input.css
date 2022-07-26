@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#hero {
+  background-image: url("../assets/bgDarkslate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#skills {
+  background-image: url("../assets/bg-dot.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 480px) {
+  #sideBar.sideClose {
+    transform: translateX(100%);
+  }
+  #sideBar.sideOpen {
+    transform: translateX(0);
+  }
+}
+
+.custom-shape-divider-bottom-1658844097 {
+  position: absolute;
+  bottom: -2%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1658844097 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1658844097 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1658851161 {
+  position: absolute;
+  bottom: -2%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1658851161 svg {
+  position: relative;
+  display: block;
+  width: calc(200% + 1.3px);
+  height: 126px;
+}
+
+.custom-shape-divider-bottom-1658851161 .shape-fill {
+  fill: #000000;
+}
+
+.custom-shape-divider-bottom-1658855114 {
+  position: absolute;
+  bottom: -2%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1658855114 svg {
+  position: relative;
+  display: block;
+  width: calc(200% + 1.3px);
+  height: 126px;
+}
+
+.custom-shape-divider-bottom-1658855114 .shape-fill {
+  fill: #f1f5f9;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1658855114 svg {
+    width: calc(171% + 1.3px);
+    height: 112px;
+  }
+}
