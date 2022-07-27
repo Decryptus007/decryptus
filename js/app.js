@@ -1,6 +1,7 @@
 const ctrlSide = document.getElementById("ctrlSide");
 const sideBar = document.getElementById("sideBar");
 const copyright = document.getElementById("copyright");
+const batteryUI = document.getElementById("battery");
 const batteryStat = document.getElementById("batteryPercent");
 const fillBattery = document.getElementById("fillBattery");
 
@@ -28,8 +29,10 @@ copyright.textContent = `Built with 💙 by Decryptus. ©${currYear}`;
 
 setInterval(() => {
   navigator.getBattery().then((battery) => {
-    let res = (battery.level * 100)
+    let res = Math.floor(battery.level * 100)
     fillBattery.style.width = `${res}%`
     batteryStat.textContent = `${res}%`
   });
 }, 2000);
+
+batteryUI.addEventListener('click', () => alert('It displays your Machine Battery Percentage 🔋.'))

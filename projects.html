@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Decryptus</title>
+  </head>
+  <body class="relative text-slate-100 bg-slate-900">
+    <nav
+      class="z-10 backdrop-blur-sm backdrop-brightness-100 bg-slate-900/70 container fixed top-0 left-0 right-0 flex items-center justify-between mx-auto p-2 md:p-4"
+    >
+      <a
+        href="#"
+        class="hover:blur-sm text-slate-200 bg-slate-800 rounded-full p-2 font-bold md:text-2xl md:p-3 hover:text-slate-300"
+        >DECRYPTUS</a
+      >
+      <div
+        id="sideBar"
+        class="sideClose p-4 fixed top-14 h-60 right-0 w-4/5 bg-slate-900 flex flex-col items-center justify-around md:flex-row md:w-1/2 md:relative md:top-0 md:bg-transparent md:p-0 md:h-auto md:space-x-4"
+      >
+        <a
+          href="./index.html"
+          class="bg-slate-700 w-full text-center text-slate-200 font-bold text-1xl hover:text-slate-600 rounded-md p-2 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-400 md:bg-transparent"
+          >Home</a
+        >
+        <a
+          href="#"
+          class="border-2 border-slate-100 bg-slate-700 w-full text-center text-slate-200 font-bold text-1xl hover:text-slate-600 rounded-md p-2 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-400 md:bg-transparent"
+          >Projects</a
+        >
+        <a
+          href="#"
+          class="bg-slate-700 w-full text-center text-slate-200 font-bold text-1xl hover:text-slate-600 rounded-md p-2 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-400 md:bg-transparent"
+          >About</a
+        >
+        <a
+          href="#"
+          class="bg-slate-700 w-full text-center text-slate-200 font-bold text-1xl hover:text-slate-600 rounded-md p-2 active:bg-slate-700 focus:outline-none focus:ring focus:ring-slate-400 md:bg-transparent"
+          >Contact</a
+        >
+      </div>
+
+      <!-- Mobile Nav -->
+      <button class="text-2xl px-2 md:hidden">
+        <span id="ctrlSide" class="i fa fa-bars"></span>
+      </button>
+    </nav>
+
+    <section
+      class="container mx-auto bg-slate-300 pt-36 pb-20 text-slate-900 md:pt-48"
+    >
+      <h1 class="text-4xl font-bold text-center">Projects</h1>
+      <div
+        id="projectHolder"
+        class="mt-20 flex gap-y-10 flex-wrap items-center justify-around w-full py-2 px-5"
+      >
+        <!-- Project x -->
+        <div
+          class="px-4 pt-1 pb-2 w-72 h-80 rounded-lg bg-slate-100 flex flex-col justify-around hover:scale-105"
+        >
+          <img
+            class="w-full object-cover h-1/2 rounded-lg"
+            src="./assets/packit.png"
+            alt="Packit"
+          />
+          <div class="flex items-center justify-between">
+            <p class="text-md font-semibold">PackIt User</p>
+            <a
+              href="https://pack-it.vercel.app/"
+              target="_blank"
+              class="text-sm underline text-slate-600"
+              >Visit Site<span class="fa fa-link"></span
+            ></a>
+          </div>
+          <small class="text-sm text-slate-400"
+            >The user part of a Logistics Company UI.</small
+          >
+          <div class="flex gap-x-4">
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >ReactJS</small
+            >
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >CSS</small
+            >
+          </div>
+          <div id="contributors" class="flex justify-end w-full">
+            <a href="https://github.com/Decryptus007" target="_blank">
+              <img
+                class="w-9 h-9 rounded-full"
+                src="./assets/dom.jpeg"
+                alt="Me"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Project x -->
+        <div
+          class="px-4 pt-1 pb-2 w-72 h-80 rounded-lg bg-slate-100 flex flex-col justify-around hover:scale-105"
+        >
+          <img
+            class="w-full object-cover h-1/2 rounded-lg"
+            src="./assets/packItDriver.png"
+            alt="Packit"
+          />
+          <div class="flex items-center justify-between">
+            <p class="text-md font-semibold">PackIt Driver</p>
+            <a
+              href="https://packit-driver.vercel.app/"
+              target="_blank"
+              class="text-sm underline text-slate-600"
+              >Visit Site<span class="fa fa-link"></span
+            ></a>
+          </div>
+          <small class="text-sm text-slate-400"
+            >The driver part of a Logistics Company UI.</small
+          >
+          <div class="flex gap-x-4">
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >ReactJS</small
+            >
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >CSS</small
+            >
+          </div>
+          <div id="contributors" class="flex justify-end w-full">
+            <a href="https://github.com/Decryptus007 target="_blank"
+              ><img
+                class="w-9 h-9 rounded-full"
+                src="./assets/dom.jpeg"
+                alt="Me"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Project x -->
+        <div
+          class="px-4 pt-1 pb-2 w-72 h-80 rounded-lg bg-slate-100 flex flex-col justify-around hover:scale-105"
+        >
+          <img
+            class="w-full object-cover h-1/2 rounded-lg"
+            src="./assets/demuz.png"
+            alt="Packit"
+          />
+          <div class="flex items-center justify-between">
+            <p class="text-md font-semibold">Music Player</p>
+            <a
+              href="https://demuz-player.vercel.app/"
+              target="_blank"
+              class="text-sm underline text-slate-600"
+              >Visit Site<span class="fa fa-link"></span
+            ></a>
+          </div>
+          <small class="text-sm text-slate-400"
+            >A music web application sourced from Deezer Rest API.</small
+          >
+          <div class="flex gap-x-4">
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >ReactJS</small
+            >
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >CSS</small
+            >
+          </div>
+          <div id="contributors" class="flex justify-end w-full">
+            <a href="https://github.com/Decryptus007"> <img
+              class="w-9 h-9 rounded-full"
+              src="./assets/dom.jpeg"
+              alt="Me"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Project x -->
+        <div
+          class="px-4 pt-1 pb-2 w-72 h-80 rounded-lg bg-slate-100 flex flex-col justify-around hover:scale-105"
+        >
+          <img
+            class="w-full object-cover h-1/2 rounded-lg"
+            src="./assets/trivia.png"
+            alt="Packit"
+          />
+          <div class="flex items-center justify-between">
+            <p class="text-md font-semibold">Trivia web app.</p>
+            <a
+              href="https://dom-quiz-app.herokuapp.com/"
+              target="_blank"
+              class="text-sm underline text-slate-600"
+              >Visit Site<span class="fa fa-link"></span
+            ></a>
+          </div>
+          <small class="text-sm text-slate-400"
+            >A mini questionnaire web application</small
+          >
+          <div class="flex gap-x-2">
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >ReactJS</small
+            >
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >CSS</small
+            >
+          </div>
+          <div id="contributors" class="flex justify-end w-full">
+            <a href="https://github.com/Decryptus007"><img
+              class="w-9 h-9 rounded-full"
+              src="./assets/dom.jpeg"
+              alt="Me"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Project x -->
+        <div
+          class="px-4 pt-1 pb-2 w-72 h-80 rounded-lg bg-slate-100 flex flex-col justify-around hover:scale-105"
+        >
+          <img
+            class="w-full object-cover h-1/2 rounded-lg"
+            src="./assets/github.png"
+            alt="Packit"
+          />
+          <div class="flex items-center justify-between">
+            <p class="text-md font-semibold">AutoFixpert</p>
+            <a
+              href="https://github.com/splashray/autofixpert"
+              target="_blank"
+              class="text-sm underline text-slate-600"
+              >Visit Site<span class="fa fa-link"></span
+            ></a>
+          </div>
+          <small class="text-sm text-slate-400"
+            >A project I contributed to (using AutoFixpert as the case study) in building the front-end part.</small
+          >
+          <div class="flex gap-x-2">
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-red-700 bg-red-200"
+              >HTML</small
+            >
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-sky-700 bg-sky-200"
+              >CSS</small
+            >
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-yellow-700 bg-yellow-200"
+              >JS</small
+            >
+            <small
+              class="text-sm px-2 py-1 rounded-lg font-semibold text-indigo-700 bg-indigo-200"
+              >PHP</small
+            >
+          </div>
+          <div id="contributors" class="flex justify-end w-full">
+            <a href="https://github.com/Decryptus007"><img
+              class="w-9 h-9 rounded-full"
+              src="./assets/dom.jpeg"
+              alt="Me"
+            /></a>
+            <a href="https://github.com/splashray"><img
+              class="w-9 h-9 rounded-full"
+              src="./assets/dummyAvatar.jpeg"
+              alt="Me"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Other Project -->
+        <div
+          class="px-4 pt-1 pb-2 w-72 h-80 rounded-lg bg-slate-100 flex items-center flex-col justify-around hover:scale-105"
+        >
+          <a class="text-slate-400" href="https://github.com/Decryptus007?tab=repositories" target="_blank">
+            <span class="text-9xl fa fa-angles-right"></span><br>
+            <small class="text-xs underline">Visit my repositories...</small>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="container mx-auto bg-black p-6 text-slate-100 flex gap-y-6 flex-col items-center justify-around"
+    >
+      <a href="#" class="text-xs underline text-center md:text-md"
+        >Back to Top</a
+      >
+      <div id="battery">
+        <div id="fillBattery" class="flex items-center justify-center">
+          <small id="batteryPercent" class="text-slate-500 text-center"
+            >0%</small
+          >
+        </div>
+      </div>
+      <p id="copyright" class="text-sm font-bold md:text-lg"></p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
