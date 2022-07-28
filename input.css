@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   transition: 0.5s;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Overpass', sans-serif !important;
 }
 
 #hero {
@@ -17,7 +23,8 @@ html {
 }
 
 #skills,
-#education {
+#education,
+#heroProfile {
   background-image: url("../assets/bg-dot.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,9 +51,14 @@ html {
   background-color: #31d639;
 }
 
-@media (max-width: 480px) {
+#heroProfile {
+  background-image: url('../assets/bg-react.jpg');
+  background-position: center;
+}
+
+@media (max-width: 767px) {
   #sideBar.sideClose {
-    transform: translateX(100%);
+    transform: translateX(200%);
   }
   #sideBar.sideOpen {
     transform: translateX(0);
