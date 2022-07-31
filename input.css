@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   transition: 0.5s;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Overpass', sans-serif !important;
+  font-family: "Overpass", sans-serif !important;
 }
 
 #hero {
@@ -52,7 +52,7 @@ body {
 }
 
 #heroProfile {
-  background-image: url('../assets/bg-react.jpg');
+  background-image: url("../assets/bg-react.jpg");
   background-position: center;
 }
 
