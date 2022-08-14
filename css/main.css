@@ -654,6 +654,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mb-36 {
   margin-bottom: 9rem;
 }
@@ -664,10 +668,6 @@ video {
 
 .-mt-12 {
   margin-top: -3rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .block {
@@ -698,6 +698,10 @@ video {
   height: 100vh;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
 .h-1\/2 {
   height: 50%;
 }
@@ -706,8 +710,16 @@ video {
   height: 2.25rem;
 }
 
-.h-72 {
-  height: 18rem;
+.h-16 {
+  height: 4rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-4\/5 {
@@ -760,6 +772,14 @@ video {
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .flex-row-reverse {
@@ -896,14 +916,14 @@ video {
   border-color: rgb(15 23 42 / var(--tw-border-opacity));
 }
 
-.border-slate-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(100 116 139 / var(--tw-border-opacity));
-}
-
 .border-slate-800 {
   --tw-border-opacity: 1;
   border-color: rgb(30 41 59 / var(--tw-border-opacity));
+}
+
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
 .bg-slate-900 {
@@ -999,11 +1019,6 @@ video {
   background-color: rgb(199 210 254 / var(--tw-bg-opacity));
 }
 
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1031,11 +1046,6 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .object-cover {
@@ -1105,8 +1115,8 @@ video {
   padding-bottom: 5rem;
 }
 
-.pb-44 {
-  padding-bottom: 11rem;
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .pt-1 {
@@ -1117,8 +1127,8 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pb-44 {
+  padding-bottom: 11rem;
 }
 
 .text-center {
@@ -1174,12 +1184,12 @@ video {
   font-weight: 700;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .font-semibold {
   font-weight: 600;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .text-slate-100 {
