@@ -4,16 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-* {
-  transition: 0.5s;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Overpass", sans-serif !important;
+  transition: .3s;
 }
 
 #hero {
@@ -57,9 +54,14 @@ body {
 }
 
 @media (max-width: 767px) {
+  #hero.h-screen {
+    height: 80vh !important;
+  }
+
   #sideBar.sideClose {
     transform: translateX(200%);
   }
+
   #sideBar.sideOpen {
     transform: translateX(0);
   }
