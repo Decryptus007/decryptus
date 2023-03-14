@@ -891,10 +891,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .border-2 {
   border-width: 2px;
 }
@@ -1579,6 +1575,10 @@ body {
     width: 16.666667%;
   }
 
+  .md\:w-\[300px\] {
+    width: 300px;
+  }
+
   .md\:w-7\/12 {
     width: 58.333333%;
   }
@@ -1589,10 +1589,6 @@ body {
 
   .md\:w-5\/12 {
     width: 41.666667%;
-  }
-
-  .md\:w-\[300px\] {
-    width: 300px;
   }
 
   .md\:flex-row {
@@ -1711,16 +1707,8 @@ body {
     display: inline;
   }
 
-  .xl\:h-\[500px\] {
-    height: 500px;
-  }
-
   .xl\:h-\[490px\] {
     height: 490px;
-  }
-
-  .xl\:w-\[500px\] {
-    width: 500px;
   }
 
   .xl\:w-\[490px\] {
